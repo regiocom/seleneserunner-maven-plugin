@@ -50,7 +50,7 @@
   <scm>
     <url>https://github.com/regiocom/seleneserunner-maven-plugin</url>
     <connection>scm:git:https://github.com/regiocom/seleneserunner-maven-plugin.git</connection>
-    <developerConnection>scm:git:https://github.com/regiocom/seleneserunner-maven-plugin.git</developerConnection>
+    <developerConnection>scm:git:[fetch=]https://github.com/regiocom/seleneserunner-maven-plugin.git[push=]ssh://github.com/regiocom/seleneserunner-maven-plugin.git</developerConnection>
   </scm>
 
 </project>
