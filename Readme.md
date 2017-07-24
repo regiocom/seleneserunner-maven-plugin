@@ -12,7 +12,7 @@ Add the plugin to your project's `pom.xml`:
     <plugin>
         <groupId>com.regiocom.bpo</groupId>
         <artifactId>seleneserunner-maven-plugin</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.4</version>
         <configuration>
           <configurationFile>src/test/selenium/phantomjs.cfg</configurationFile>
           <testSuites>
