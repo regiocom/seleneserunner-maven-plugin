@@ -10,7 +10,6 @@
   <description>Maven-Plugin zum ausführen von Selenium Test-Suites</description>
 
   <properties>
-    <maven.javadoc.skip>true</maven.javadoc.skip>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
@@ -94,6 +93,20 @@
                 </goals>
               </execution>
             </executions>
+            <configuration>
+              <tags>
+                <tag>
+                  <name>goal</name>
+                  <placement>t</placement>
+                  <head>Goal:</head>
+                </tag>
+                <tag>
+                  <name>phase</name>
+                  <placement>t</placement>
+                  <head>Phase:</head>
+                </tag>
+              </tags>
+            </configuration>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
